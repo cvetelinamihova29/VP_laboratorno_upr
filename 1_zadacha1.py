@@ -1,0 +1,5 @@
+a = float(input('a: '))
+b = float(input('b: '))
+h = float(input('h: '))
+area = round((a+b)*h/2, 2)
+print('Лицето е:', area)

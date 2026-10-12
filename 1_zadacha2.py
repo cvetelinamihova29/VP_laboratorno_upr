@@ -1,0 +1,5 @@
+r = float(input('r: '))
+area = round((3.14 * r ** 2), 3)
+perimeter = round((2 *3.14 * r), 3)
+print('Лицето е', area)
+print('Периметърът е', perimeter)
