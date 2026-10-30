@@ -13,7 +13,7 @@ most_common = []
 for char in count: 
     if count[char] > max_count: 
         max_count = count[char]
-        most_common.append(char)
+        most_common = [char]
     elif count[char] == max_count: 
         most_common.append(char)
 
