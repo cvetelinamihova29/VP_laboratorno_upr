@@ -1,5 +1,5 @@
-sent = input('Напишете изречение: ')
-words = sent.split()
+sentence = input('Напишете изречение: ')
+words = sentence.split()
 words_set = set(words)
 words_sorted = sorted(words_set)
 print('Брой на уникални думи:', len(words_set))
