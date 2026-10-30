@@ -8,12 +8,14 @@ for char in text:
             count[char] = 1
 
 max_count = 0
-most_common = ''
+most_common = []
 
 for char in count: 
     if count[char] > max_count: 
         max_count = count[char]
         most_common = char
+    elif count[char] == max_count: 
+        most_common.append(char)
 
 print('Най-често срещаният символ е', most_common)
 print('Среща се', max_count, 'пъти')
