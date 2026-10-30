@@ -6,4 +6,4 @@ for word in words:
         result.append(word)
 
 result_tuple = tuple(result)
-print('Думи с дължина >=: ', number, result_tuple)
+print('Думи с дължина >=', number, result_tuple)
