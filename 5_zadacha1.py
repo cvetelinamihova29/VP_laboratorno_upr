@@ -17,3 +17,5 @@ elif type == 3:
     a = float(input('Въведете страна: '))
     h = float(input('Въведете височина: '))
     print('Лицето е', triangle(a, h))
+else: 
+    print('Невалидно число')
